@@ -77,7 +77,7 @@ export const SecondaryTextL = styled.p<TextProps>`
 export const DarkTextL = styled.p<TextProps>`
   margin: 0;
   font-size: ${(props: any) => props.fSize ? props.fSize : '16px'};
-  color: ${(props: any) => props.theme.gray};
+  color: ${(props: any) => props.theme.gray3};
   font-weight: ${(props: any) => props.fWeight ? props.fWeight : '800'};
   align-items: flex-start;
   padding:  ${(props: any) => props.customPadding ? props.customPadding : 0};
@@ -90,7 +90,7 @@ export const DarkTextL = styled.p<TextProps>`
 export const DarkTextS = styled.p<TextProps>`
   margin: 0;
   font-size: ${(props: any) => props.fSize ? props.fSize : '16px'};
-  color: ${(props: any) => props.theme.gray};
+  color: ${(props: any) => props.theme.gray3};
   font-weight: ${(props: any) => props.fWeight ? props.fWeight : '800'};
   align-items: flex-start;
   padding:  ${(props: any) => props.customPadding ? props.customPadding : 0};
